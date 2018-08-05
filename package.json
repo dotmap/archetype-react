@@ -4,7 +4,8 @@
   "description": "Builder archetype for creating React applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html -d public",
+    "build": "parcel build index.html -d public"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/multi-cell/archetype-react/issues"
   },
-  "homepage": "https://github.com/multi-cell/archetype-react#readme"
+  "homepage": "https://github.com/multi-cell/archetype-react#readme",
+  "dependencies": {
+    "parcel": "^1.9.7"
+  },
+  "peerDependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
 }
