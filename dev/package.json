@@ -1,0 +1,31 @@
+{
+  "name": "@multi-cell/archetype-react-dev",
+  "version": "1.0.0",
+  "description": "Builder archetype for creating React applications (Development)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multi-cell/archetype-react.git"
+  },
+  "keywords": [
+    "builder",
+    "react",
+    "archetype",
+    "parcel",
+    "storybook",
+    "jest",
+    "prettier",
+    "eslint",
+    "standard"
+  ],
+  "author": "Graham Barber <graham@multi-cell.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/multi-cell/archetype-react/issues"
+  },
+  "homepage": "https://github.com/multi-cell/archetype-react#readme",
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {}
+}
