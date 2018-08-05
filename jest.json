@@ -1,0 +1,10 @@
+{
+  "rootDir": "../../..",
+  "moduleNameMapper": {
+    "\\.(css|scss|sass|less)$": "identity-obj-proxy"
+  },
+  "transform": {
+    "^.+\\.(js|jsx)$": "babel-jest"
+  },
+  "testURL": "http://localhost"
+}
