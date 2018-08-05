@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Builder archetype for creating React applications (Development)",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/multi-cell/archetype-react.git"
@@ -26,6 +29,9 @@
   },
   "homepage": "https://github.com/multi-cell/archetype-react#readme",
   "dependencies": {},
-  "peerDependencies": {},
+  "peerDependencies": {
+    "docz": "^0.9.5",
+    "docz-plugin-babel6": "^0.9.4"
+  },
   "devDependencies": {}
 }
