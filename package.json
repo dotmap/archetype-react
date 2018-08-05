@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/multi-cell/archetype-react#readme",
   "dependencies": {
+    "node-sass": "^4.9.2",
     "parcel": "^1.9.7"
   },
   "peerDependencies": {
