@@ -1,6 +1,6 @@
 {
   "name": "@multi-cell/archetype-react-dev",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Builder archetype for creating React applications (Development)",
   "main": "index.js",
   "scripts": {
