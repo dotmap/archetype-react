@@ -9,6 +9,8 @@
     "format:file": "prettier-eslint --write",
     "format:project": "prettier-eslint --write pages/**/*.jsx components/**/*.jsx index.js",
     "lint:file": "eslint -c node_modules/@multi-cell/archetype-react-dev/.eslintrc --fix",
+    "lint:staged": "lint-staged -c node_modules/@multi-cell/archetype-react-dev/.lintstagedrc",
+    "lint:commit": "commitlint -g node_modules/@multi-cell/archetype-react-dev/commitlint.config.js -E HUSKY_GIT_PARAMS",
     "lint:project": "eslint -c node_modules/@multi-cell/archetype-react-dev/.eslintrc --fix 'pages/**/*.jsx' 'components/**/*.jsx' index.js",
     "npm:test": "jest --coverage -c=./node_modules/@multi-cell/archetype-react-dev/jest.json"
   },
@@ -34,6 +36,8 @@
   },
   "homepage": "https://github.com/multi-cell/archetype-react#readme",
   "dependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
     "babel-eslint": "^8.2.6",
     "babel-jest": "^23.4.2",
     "eslint-config-standard": "^12.0.0-alpha.0",
@@ -43,12 +47,14 @@
     "eslint-plugin-standard": "^3.1.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.4.2",
+    "lint-staged": "^7.2.0",
     "prettier-eslint-cli": "^4.7.1"
   },
   "peerDependencies": {
     "docz": "^0.9.5",
     "docz-plugin-babel6": "^0.9.4",
     "eslint": "^5.3.0",
+    "husky": "^1.0.0-rc.13",
     "react-test-renderer": "^16.4.2"
   },
   "devDependencies": {}
