@@ -7,11 +7,11 @@
     "docz:dev": "docz dev",
     "docz:build": "docz build",
     "format:file": "prettier-eslint --write",
-    "format:project": "prettier-eslint --write pages/**/*.jsx components/**/*.jsx index.js",
+    "format:project": "prettier-eslint --write src/**/*.jsx src/**/*.js",
     "lint:file": "eslint -c node_modules/@multi-cell/archetype-react-dev/.eslintrc --fix",
     "lint:staged": "lint-staged -c node_modules/@multi-cell/archetype-react-dev/.lintstagedrc",
     "lint:commit": "commitlint -g node_modules/@multi-cell/archetype-react-dev/commitlint.config.js -E HUSKY_GIT_PARAMS",
-    "lint:project": "eslint -c node_modules/@multi-cell/archetype-react-dev/.eslintrc --fix 'pages/**/*.jsx' 'components/**/*.jsx' index.js",
+    "lint:project": "eslint -c node_modules/@multi-cell/archetype-react-dev/.eslintrc --fix 'src/**/*.jsx' 'src/**/*.js'",
     "npm:test": "jest --coverage -c=./node_modules/@multi-cell/archetype-react-dev/jest.json"
   },
   "repository": {
